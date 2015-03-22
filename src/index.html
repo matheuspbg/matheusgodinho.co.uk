@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- charset -->
+	<meta charset="UTF-8">
+
+	<!-- pate title -->
+	<title>Matheus Godinho</title>
+
+	<!-- favicon -->
+	<link rel="shortcut icon" href="/favicon.ico">
+
+	<!-- social metas -->
+	<meta name="description" content="Descricao do portfolio">
+	<meta name="author" content="Matheus Godinho">
+	<meta name="keywords" content=""> 
+	<meta property="og:description" content="Descricao" />
+	<meta property="og:url" content="http://www.matheuspbg.co.uk" />
+
+	<!-- responsive metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144-precomposed.png">
+
+	<!-- stylesheets -->
+	<link rel="stylesheet" type="text/css" href="./stylesheets/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./stylesheets/strip.css">
+	<link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
+
+	<!-- custom fonts -->
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+	<link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+	<!-- javascripts -->
+	<script type="text/javascript" src="./javascripts/vendor/jquery-1.11.2.min.js"></script>
+	<script type="text/javascript" src="./javascripts/vendor/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./javascripts/vendor/isotope.min.js"></script>
+	<script type="text/javascript" src="./javascripts/vendor/strip.min.js"></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3&sensor=false"></script>
+	<script type="text/javascript" src="./javascripts/vendor/gmaps.js"></script>
+	<script type="text/javascript" src="./javascripts/vendor/jquery.validate.min.js"></script>
+
+	<!-- google analytics -->
+	<script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  	ga('create', 'UA-60095304-1', 'auto');
+	  	ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<!-- mobile navigation -->
+	<div id="mobile-navigation">
+		<div class="pattern"></div>
+		<div class="close"><i class="fa fa-times"></i></div>
+		<ul>
+			<li translate="about">ABOUT</li>
+			<li translate="cv">CV</li>
+			<li translate="portfolio">PORTFOLIO</li>
+			<li translate="contact">CONTACT</li>
+			<div class="social">
+				<a href="https://www.facebook.com/matheusbgodinho" target="_blank"><i class="fa fa-facebook-official"></i></a>
+				<a href="https://www.twitter.com/matheuspbg" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.github.com/matheuspbg" target="_blank"><i class="fa fa-github-square"></i></a>
+			</div>
+		</ul>
+	</div>
+
+	<!-- first section -->
+	<section id="first-section" class="col-md-12 col-xs-12 parallax" data-speed="8">
+		<!-- header -->
+		<header class="col-md-12">
+			<nav class="navbar navbar-default">
+				<div class="container">
+				  	<div class="navbar-header">
+				    	<button type="button" onclick="openNavigation();" id="navbar-toggle" class="navbar-toggle">
+				        	<span class="sr-only">Menu</span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				        	<span class="icon-bar"></span>
+				      	</button>
+				      	<!-- <a class="navbar-brand" href="#">MG</a> -->
+				    </div>
+
+				    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				      	<ul class="nav navbar-nav">
+				        	<li><a href="javascript:void(0)" data-section="about-section">ABOUT</a></li>
+				        	<li><a href="javascript:void(0)" data-section="cv-section">CV</a></li>
+				        	<li><a href="javascript:void(0)" data-section="portfolio-section">PORTFOLIO</a></li>
+				        	<li><a href="javascript:void(0)" data-section="contact-section">CONTACT</a></li>
+				      	</ul>
+
+				      	<ul class="nav navbar-nav navbar-right">
+				        	<li><a href="https://www.facebook.com/matheusbgodinho" target="_blank"><i class="fa fa-facebook-official"></i></a></li>
+				        	<li><a href="https://www.twitter.com/matheuspbg" target="_blank"><i class="fa fa-twitter"></i></a></li>
+				        	<li><a href="https://www.github.com/matheuspbg" target="_blank"><i class="fa fa-github-square"></i></a></li>
+				      	</ul>
+				   	</div>
+				</div>
+			</nav>
+		</header>
+
+		<!-- me -->
+		<div class="me col-md-10 col-md-offset-2">
+			<h1 class="col-md-10">I'm <span>MATHEUS GODINHO</span></h1>
+			<p class="col-md-10">I'm a passionate about <b>Mobile Apps</b>, creating modern and beautiful apps to <b>iOS/Android</b> and creating responsive design for <b>Web</b>. Let's start scfadeing and learn more <b>about me</b>.</p>
+		</div>
+
+		<!-- view more -->
+		<div class="col-md-12 col-sm-12 col-sx-12 view-more animated bounce" onclick="$('html, body').animate({scrollTop: eval($('#about-section').offset().top - 50) }, 1000);">
+			RESUME
+			<i class="fa fa-long-arrow-down"></i>
+		</div>
+	</section>
+
+	<!-- second section -->
+	<section id="about-section" class="col-md-12 col-xs-12">
+		<div class="col-md-6 col-sm-12 col-xs-12 my-image">
+			<img src="http://placehold.it/600x400" alt="Matheus Godinho">
+		</div>
+		<div class="col-md-6 col-sm-12 col-xs-12 about-me">
+			<h2><b>MATHEUS GODINHO</b></h2>
+			<h5>WEB DEVELOPER / MOBILE DEVELOPER</h5>
+
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque fermentum sapien sodales tellus efficitur, a pellentesque eros scelerisque. Curabitur commodo justo dui, eget auctor purus venenatis non. Curabitur sit amet consectetur nisi. Morbi scelerisque risus massa, at vehicula nibh posuere in. Suspendisse tempor arcu tortor, quis eleifend ipsum semper ac. Cras pharetra metus id tincidunt dapibus. Sed tempus malesuada scelerisque. Quisque luctus ullamcorper accumsan. Cras dictum dapibus urna ac imperdiet. Maecenas dignissim euismod scelerisque. Morbi efficitur, ligula quis pellentesque luctus, neque justo scelerisque metus, ac laoreet nibh lacus sit amet lorem. Integer ut justo ut metus condimentum euismod. Etiam maximus mauris lacus, in imperdiet erat tristique suscipit. Proin interdum ante id enim efficitur, a elementum metus tincidunt.
+			</p>
+
+			<div class="col-md-6 col-sm-4 col-xs-12 contacts">
+				<div class="highlight-icon col-md-8 col-sm-12 col-xs-12">
+					<div class="icon col-md-2 col-sm-2 col-xs-1"><i class="fa fa-phone"></i></div>
+					<div class="text col-md-10 col-sm-10 col-xs-11"><a href="tel:+44 7508 801162">+44 7508 801162</a></div>
+				</div>
+
+				<div class="highlight-icon col-md-8 col-sm-12 col-xs-12">
+					<div class="icon col-md-2 col-sm-2 col-xs-1"><i class="fa fa-skype"></i></i></div>
+					<div class="text col-md-10 col-sm-10 col-xs-11"><a href="skype:matheuspbg?chat">matheuspbg</a></div>
+				</div>
+
+				<div class="highlight-icon col-md-8 col-sm-12 col-xs-12">
+					<div class="icon col-md-2 col-sm-2 col-xs-1"><i class="fa fa-envelope"></i></i></div>
+					<div class="text col-md-10 col-sm-10 col-xs-11"><a href="mailto:matheuspbg@gmail.com">matheuspbg@gmail.com</a></div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- cv section -->
+	<section id="cv-section" class="col-md-12 col-sm-12 col-xs-12">
+		<div class="cv-buttons col-md-6 col-sm-6 col-xs-12 col-md-offset-4 col-sm-offset-3">
+			<button class="btn btn-default col-md-4 hidden-sm hidden-xs"><i class="fa fa-file-o"></i> DOWNLOAD CV</button>
+			<button class="btn btn-default col-md-3 col-sm-12 col-xs-12"><i class="fa fa-file-o"></i> PRINT CV</button>
+		</div>
+	</section>
+
+	<!-- portfolio section -->
+	<section id="portfolio-section" class="col-md-12 col-sm-12 col-xs-12">
+		<ul class="filters col-md-12 hidden-xs">
+			<li data-filter="*" class="active">TODOS</li>
+			<li data-filter=".web">WEB</li>
+			<li data-filter=".mobile">MOBILE</li>
+			<li data-filter=".filtro1">FILTRO1</li>
+			<li data-filter=".filtro2">FILTRO2</li>
+		</ul>
+
+		<div class="grid col-md-12 col-sm-12 col-xs-12">
+			<!-- item 1 -->
+			<div class="web item col-md-3 col-sm-3 col-xs-12">
+				<div class="content col-md-12 col-sm-12 col-xs-12">
+					<div class="pattern col-md-12 col-sm-12 col-xs-12">
+						<h5 class="title">PORTFOLIO 1</h5>
+						<h6 class="category">WEB</h6>
+						<div class="buttons col-md-12">
+							<a href="./images/wyeth.jpg" data-strip-caption="Portfolio 1" data-strip-group="web" class="strip btn btn-default" role="button"><i class="fa fa-plus"></i></a>
+							<a class="btn btn-default" role="button"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<img src="http://placehold.it/200" class="col-md-12" alt="Portfolio Image">
+			</div>
+
+			<!-- item 2 -->
+			<div class="mobile item col-md-3 col-sm-3 col-xs-12">
+				<div class="content col-md-12 col-sm-12 col-xs-12">
+					<div class="pattern col-md-12 col-sm-12 col-xs-12">
+						<h5 class="title">PORTFOLIO 2</h5>
+						<h6 class="category">MOBILE</h6>
+						<div class="buttons col-md-12">
+							<a href="./images/wyeth.jpg" data-strip-caption="Portfolio 2" data-strip-group="mobile" class="strip btn btn-default" role="button"><i class="fa fa-plus"></i></a>
+							<a class="btn btn-default" role="button"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<img src="http://placehold.it/200" class="col-md-12" alt="Portfolio Image">
+			</div>
+
+			<!-- item 3 -->
+			<div class="filtro1 item col-md-3 col-sm-3 col-xs-12">
+				<div class="content col-md-12 col-sm-12 col-xs-12">
+					<div class="pattern col-md-12 col-sm-12 col-xs-12">
+						<h5 class="title">PORTFOLIO 3</h5>
+						<h6 class="category">FILTRO1</h6>
+						<div class="buttons col-md-12">
+							<a href="./images/wyeth.jpg" data-strip-caption="Portfolio 3" data-strip-group="filtro1" class="strip btn btn-default" role="button"><i class="fa fa-plus"></i></a>
+							<a class="btn btn-default" role="button"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<img src="http://placehold.it/200" class="col-md-12" alt="Portfolio Image">
+			</div>
+
+			<!-- item 4 -->
+			<div class="filtro2 item col-md-3 col-sm-3 col-xs-12 hidden-xs">
+				<div class="content col-md-12 col-sm-12 col-xs-12">
+					<div class="pattern col-md-12 col-sm-12 col-xs-12">
+						<h5 class="title">PORTFOLIO 4</h5>
+						<h6 class="category">FILTRO2</h6>
+						<div class="buttons col-md-12">
+							<a href="./images/wyeth.jpg" data-strip-caption="Portfolio 4" data-strip-group="filtro2" class="strip btn btn-default" role="button"><i class="fa fa-plus"></i></a>
+							<a class="btn btn-default" role="button"><i class="fa fa-external-link"></i></a>
+						</div>
+					</div>
+				</div>
+				<img src="http://placehold.it/200" class="col-md-12" alt="Portfolio Image">
+			</div>
+
+			<!-- item 5 -->
+			<div class="web item col-md-3 col-sm-3 col-xs-12 hidden-xs">
+				<div class="content col-md-12 col-sm-12 col-xs-12">
+					<div class="pattern col-md-12 col-sm-12 col-xs-12">
+						<h5 class="title">PORTFOLIO 5</h5>
+						<h6 class="category">MOBILE</h6>
+						<div class="buttons col-md-12">
+							<a href="./images/wyeth.jpg" data-strip-caption="Portfolio 5" data-strip-group="art" class="strip btn btn-default" role="button"><i class="fa fa-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<img src="http://placehold.it/200" class="col-md-12" alt="Portfolio Image">
+			</div>
+
+			<!-- item 5 -->
+			<div class="web item col-md-3 col-sm-3 col-xs-12 hidden-xs">
+				<div class="content col-md-12 col-sm-12 col-xs-12">
+					<div class="pattern col-md-12 col-sm-12 col-xs-12">
+						<h5 class="title">PORTFOLIO 6</h5>
+						<h6 class="category">MOBILE</h6>
+						<div class="buttons col-md-12">
+							<a href="./images/wyeth.jpg" data-strip-caption="Portfolio 6" data-strip-group="art" class="strip btn btn-default" role="button"><i class="fa fa-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<img src="http://placehold.it/200" class="col-md-12" alt="Portfolio Image">
+			</div>
+
+			<!-- item 6 -->
+			<div class="web item col-md-3 col-sm-3 col-xs-12 hidden-xs">
+				<div class="content col-md-12 col-sm-12 col-xs-12">
+					<div class="pattern col-md-12 col-sm-12 col-xs-12">
+						<h5 class="title">PORTFOLIO 6</h5>
+						<h6 class="category">MOBILE</h6>
+						<div class="buttons col-md-12">
+							<a href="./images/wyeth.jpg" data-strip-caption="Portfolio 6" data-strip-group="art" class="strip btn btn-default" role="button"><i class="fa fa-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<img src="http://placehold.it/200" class="col-md-12" alt="Portfolio Image">
+			</div>
+
+			<!-- item 7 -->
+			<div class="web item col-md-3 col-sm-3 col-xs-12 hidden-xs">
+				<div class="content col-md-12 col-sm-12 col-xs-12">
+					<div class="pattern col-md-12 col-sm-12 col-xs-12">
+						<h5 class="title">PORTFOLIO 6</h5>
+						<h6 class="category">MOBILE</h6>
+						<div class="buttons col-md-12">
+							<a href="./images/wyeth.jpg" data-strip-caption="Portfolio 6" data-strip-group="art" class="strip btn btn-default" role="button"><i class="fa fa-plus"></i></a>
+						</div>
+					</div>
+				</div>
+				<img src="http://placehold.it/200" class="col-md-12" alt="Portfolio Image">
+			</div>
+		</div>
+	</section>
+
+	<!-- contact section -->
+	<section id="contact-section" class="col-md-12 col-sm-12 col-xs-12">
+		<!-- contact form -->
+		<div class="contact-form col-md-6 col-sm-6 col-xs-12">
+			<form id="contact-form">
+				<div class="alert alert-warning alert-dismissible fade in" style="display: none;" role="alert">
+      				<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+      				<i class="fa fa-times"></i>
+      				<strong></strong> <span class="text"></span>
+    			</div>
+				 <div class="form-group">
+    				<label for="name">Name</label>
+    				<input type="text" class="form-control" id="name" name="name" placeholder="Jake Martin" rel="tooltip" data-toggle="tooltip" title="* This field is required">
+  				</div>
+
+  				<div class="form-group">
+    				<label for="email">Email address</label>
+    				<input type="email" class="form-control" id="email" name="email" placeholder="jake.martin@example.com" rel="tooltip" data-toggle="tooltip" title="* This field is required">
+  				</div>
+
+  				<div class="form-group">
+    				<label for="phone">Phone</label>
+    				<input type="text" class="form-control" id="phone" name="phone" placeholder="+44 7508 801162" rel="tooltip" data-toggle="tooltip" title="* This field is required">
+  				</div>
+
+  				<div class="form-group">
+    				<label for="message">Message</label>
+    				<textarea class="form-control" id="message" name="message" placeholder="Your question" rows="4" rel="tooltip" data-toggle="tooltip" title="* This field is required"></textarea>
+  				</div>
+
+				<div class="form-group">
+  					<button class="btn btn-default" type="submit"><i class="fa fa-paper-plane"></i> SEND</button>
+  				</div>
+			</form>
+		</div>
+		
+		<!-- map -->
+		<div class="map col-md-6 col-sm-6 col-xs-12">
+			<div id="map-canvas"></div>
+		</div>
+	</section>
+
+
+	<script type="text/javascript" src="./javascripts/app.js"></script>
+</body>
+</html>
